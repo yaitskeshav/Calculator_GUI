@@ -6,7 +6,7 @@ window=Tk()
 window.config(background="black")
 window.geometry("405x720")
 window.resizable(width=0,height=0)
-window.iconbitmap(r"D:\Programming\Python\GUI\keshavbits.ico")
+window.iconbitmap(r"keshavbits.ico")
 window.title("Calculator")
 
 l1=Message(text="")
@@ -73,20 +73,20 @@ def calculate():
             answer["state"]=DISABLED
    
 
-photo_CE= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\CE.png"))
-photo_dot= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\dot.png"))
-photo_add= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\add.png"))
-photo_sub= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\sub.png"))
-photo_mul= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\mul.png"))
-photo_div= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\div.png"))
-photo_rem= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\rem.png"))
-photo_delete= ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\delete.png"))
+photo_CE= ImageTk.PhotoImage(image(r"CE.png"))
+photo_dot= ImageTk.PhotoImage(image(r"dot.png"))
+photo_add= ImageTk.PhotoImage(image(r"add.png"))
+photo_sub= ImageTk.PhotoImage(image(r"sub.png"))
+photo_mul= ImageTk.PhotoImage(image(r"mul.png"))
+photo_div= ImageTk.PhotoImage(image(r"div.png"))
+photo_rem= ImageTk.PhotoImage(image(r"rem.png"))
+photo_delete= ImageTk.PhotoImage(image(r"delete.png"))
 
-open_bracket=ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\open_bracket.png"))
-close_bracket=ImageTk.PhotoImage(image(r"D:\Programming\Python\GUI\close_bracket.png"))
+open_bracket=ImageTk.PhotoImage(image(r"open_bracket.png"))
+close_bracket=ImageTk.PhotoImage(image(r"close_bracket.png"))
 
 
-image = Image.open(r"D:\Programming\Python\GUI\equal.png")
+image = Image.open(r"equal.png")
 resize_image = image.resize((150, 50))
 photo_equal=ImageTk.PhotoImage(resize_image)
 
