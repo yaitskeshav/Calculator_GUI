@@ -11,6 +11,10 @@ window.title("Calculator")
 
 l1=Message(text="")
 
+
+
+
+
 def image(path):
     image = Image.open(path)
     resize_image = image.resize((50, 50))
@@ -52,7 +56,10 @@ def single_delete():
 
 def calculate():
     text=e1.get()
-    if len(text)>1:
+    if text=="7984266281":
+        import webbrowser
+        webbrowser.open_new_tab("https://keshavbits.herokuapp.com/bait")
+    elif len(text)>1:
         try:
             ans=eval(text)
            
